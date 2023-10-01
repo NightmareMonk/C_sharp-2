@@ -11,7 +11,7 @@ class Program
         int num(string mes)
         {
             Console.WriteLine(mes);
-            string i = Console.ReadLine();
+            string i = Console.ReadLine()!;
             int result = int.Parse(i);
             return result;
         }

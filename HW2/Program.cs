@@ -12,7 +12,7 @@ class Program
         int num(string mes)
         {
             Console.Write(mes);
-            string i = Console.ReadLine();
+            string i = Console.ReadLine()!;
             int result = int.Parse(i);
             return result;
         }
